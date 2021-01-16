@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(55, 86, 119);
+}
+main{
+    background-color: cadetblue;
+    font-family: Cambria;
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+#intro{
+    text-align: center;
+}
+#intro h1{
+    color: orange;
+}
+#intro img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+a{
+    color: rgb(77, 35, 18);
+    text-size-adjust: auto;
+}
+#corpo ul dd{
+    text-align: justify;
+    background-color: bisque;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+}
+footer #copyright{
+    font-size: small;
+}
+footer p img{
+    width: 30px;
+    height: 30px;
+}
