@@ -25,19 +25,32 @@ main{
 a{
     color: rgb(77, 35, 18);
     text-size-adjust: auto;
+    text-decoration: dashed;
 }
 dd{
     background-color: whitesmoke;
     text-align: justify;
     border-radius: 5px;
 }
-footer{
+#visitantes{
     text-align: center;
+}
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
 }
 footer #copyright{
     font-size: small;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 10px;
 }
 footer p img{
+    padding: 10px;
     width: 30px;
     height: 30px;
 }
