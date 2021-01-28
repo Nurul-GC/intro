@@ -26,9 +26,9 @@ a{
     color: rgb(77, 35, 18);
     text-size-adjust: auto;
 }
-#corpo ul dd{
+dd{
+    background-color: whitesmoke;
     text-align: justify;
-    background-color: rgb(168, 214, 248);
     border-radius: 5px;
 }
 footer{
