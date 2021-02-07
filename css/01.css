@@ -27,15 +27,19 @@ a{
     text-size-adjust: auto;
     text-decoration: dashed;
 }
+code{
+    background-color: rgb(54, 54, 54);
+    color: whitesmoke;
+}
 dd{
     background-color: whitesmoke;
     text-align: justify;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 #visitantes{
     text-align: center;
 }
-footer{
+footer #links-sociais{
     background-color: whitesmoke;
     text-align: center;
     width: 250px;
@@ -44,9 +48,12 @@ footer{
     border-radius: 10px;
 }
 footer #copyright{
+    padding-top: 5px;
+    text-align: center;
     font-size: small;
     color: whitesmoke;
     background-color: black;
+    border-radius: 10px;
 }
 footer p img{
     padding: 10px;
