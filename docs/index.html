@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nurul-GC - Repos</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/01.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
@@ -23,127 +27,196 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <main>
+<body class="bg-dark">
+    <header class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <img src="img/favicons/favicon-192x192.png" alt="gc-logo">
+            </div>
+            <h1 class="text-center">Nurul Hosny Gaspar de Carvalho</h1>
+
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#repositorios">Repositórios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gists">Gists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#links-sociais">Links-Sociais</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <br>
+    <main class="container bg-light">
         <div id="intro">
-            <a href="https://artesgc.home.blog" title="click para acessar o website da ArtesGC!"><img
-                    src="img/logos/02.png" alt="logotipo-artesgc"></a>
-            <h1>Olá Mundo!</h1>
+            <a href="https://artesgc.home.blog" title="click para acessar o website da ArtesGC!">
+                <img src="img/logos/02.png" alt="logotipo-nurulgc">
+            </a>
+            <h1>Olaa Mundo!</h1>
             <p>
                 Esta é a página dos meus repositórios representando a <a
                     href="https://github.com/ArtesGC">ArtesGC</a><br>
-                Serão apresentados aqui os caminhos para os repositórios criados por <a
+                Serão descritos aqui os repositórios criados por <a
                     href="https://github.com/Nurul-GC/">Nurul-GC</a>
             </p>
+        </div><br>
+        <div id="card">
+            <h2 class="card-header text-center" id="repositorios">R E P O S I T Ó R I O S</h2>
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/GCrypter"><b>GCrypter</b></a>
+                            <dd>O Codificador (GCrypter) é um programa desktop para windows, que lhe oferece opções e um
+                                ambiente simples para que você como utilizador final possa registrar os seus pensamentos, dados e anotações, guardando-os posteriormente <b>CODIFICADOS</b>.
+                                <br>Nele também está a opção de <b>DECODIFICAÇÂO</b> dos mesmos arquivos.<br>
+                                E até a opção de <b>EDIÇÃO</b> dos arquivos já criados.
+                            </dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/Adivinha-Palavra"><b>Jogo Adivinha Palavra (versão PT)</b></a>
+                            <dd>Jogo para computador, com simples objetivo de adivinhar a palavra escolhida aleatoriamente pelo programa <b>(LETRA POR LETRA)</b>.
+                                <br>Com um design simples a nova versão do AP está mais especifica e com mais de 500 palavras aumentando a dificuldade do jogo.</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/Guessing-Word"><b>Game Guessing Word (versão EN)</b></a>
+                            <dd>Computer game, with the simple objective of guessing the word chosen randomly by the program <b>(LETTER BY LETTER)</b>.
+                                <br>With a simple design the new version of the AP is more specific and with more than 500 words increasing the difficulty of the game.</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/pipInstall"><b>PipInstall</b></a>
+                            <dd>Um Atualizador automático dos pacotes instalados pelo python-pip.<br>Criado especialmente para
+                                programadores python o PipInstall faz a leitura de todos os módulos (atualizáveis) instalados na
+                                máquina do programador organiza-os num ficheiro externo e faz a atualização através do comando:
+                                <br><code><i>pip install --upgrade -r lista_de_pacotes.txt</i></code>
+                            </dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/Diario-GC"><b>Diario-GC</b></a>
+                            <dd>Um script-programa que tem a finalidade de <b>REGISTRAR</b>,
+                                <b>EDITAR</b> e <b>LER</b> mensagens ou pensamentos de forma simples e segura<br>(já que ele
+                                também as codifica), usei um algoritmo de criptografia que tenho desenvolvido a algum tempo e
+                                que até a data presente<br>me pareceu ser inquebrável. 🤓<br><a
+                                    href="https://nurul-gc.github.io/Diario-GC/"><b>Mais informações...</b></a>
+                            </dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/TicTacToe-GC"><b>TicTacToe-GC</b></a>
+                            <dd>Réplica do jogo TicTacToe, fiz questão de personaliza-la e criar um algoritmo em duas linguagens diferentes e muito populares [python && java].</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/demo-BancoGC"><b>demo-BancoGC</b></a>
+                            <dd> Estudando java (Command Line Interface)<br>Exercicio representando algumas operações bancárias.</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/GCalculadora"><b>GCalculadora</b></a>
+                            <dd>A CALCULADORA MAIS SIMPLES E PRÁTICA DO MUNDO <br>
+                                Ela te permite fazer cálculos dos mais complexos aos mais simples de forma resumida.</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/GContactos"><b>GContactos</b></a>
+                            <dd>Um script-programa que permite GUARDAR LER e EDITAR <br>
+                                informações de contactos de qualquer fonte e pessoa</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/demo-Notificacao"><b>demo-Notificação</b></a>
+                            <dd>Este script-programa serve para apresentar como se gera notificações no ambiente principal.. <br>
+                                Usando três ferramentas diferentes e suas respectivas sintaxes..</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/GenVal-IP"><b>GenVal-IP</b></a>
+                            <dd>Simples script-programa que gera e valida endereços de IPs.</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/ConScan"><b>ConScan</b></a>
+                            <dd>Simples script-programa que verifica as portas disponiveis para estabelecer a conexão a um servidor.</dd>
+                        </li>
+                    </div><br>
+                    <div class="list-group-item list-group-item-primary">
+                        <li>
+                            <a href="https://github.com/Nurul-GC/dGC"><b>dGC</b></a>
+                            <dd>Pequeno e simples agendador de tarefas - DespertadorGC</dd>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card-header text-center" title="códigos singulares" id="gists">G I S T S</h2>
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item list-group-item-primary">
+                        <script src="https://gist.github.com/Nurul-GC/48dc8cdfbf5d98f4db523763ee20b30c.js"></script>
+                        <script src="https://gist.github.com/Nurul-GC/0ea07b0c6497c176b8aa28425b967737.js"></script>
+                        <script src="https://gist.github.com/Nurul-GC/01e0620505c376974ae5b7c5dbe8bff4.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="card">
+            <h1 class="card-header text-center" id="links-sociais">L I N K S - S O C I A I S</h1>
+            <div class="card-body social-card">
+                <a href="https://api.whatsapp.com/send?phone=27735550878">
+                    <img class="social-icon" src="img/whatsapp.png" alt="whatsapp">
+                </a>
+                <a href="https://facebook.com/nurul.carvalho">
+                    <img class="social-icon" src="img/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/nurulgc/">
+                    <img class="social-icon" src="img/instagram.png" alt="instagram">
+                </a>
+                <a href="https://twitter.com/NurulGC3">
+                    <img class="social-icon" src="img/twitter.png" alt="twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/nurul-carvalho-4a64b01b4/">
+                    <img class="social-icon" src="img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://t.me/NurulGC">
+                    <img class="social-icon" src="img/telegram.png" alt="telegram">
+                </a>
+            </div>
         </div>
-        <hr>
-        <div id="corpo">
-            <h2>Repositórios</h2>
-            <ul>
-                <li>
-                    <a href="https://github.com/Nurul-GC/GCrypter"><b>GCrypter</b></a>
-                    <dd>O Codificador (GCrypter) é um programa desktop para windows, que lhe oferece opções e um
-                        ambiente simples para que você como utilizador final possa registrar os seus pensamentos, dados e anotações, guardando-os posteriormente <b>CODIFICADOS</b>.
-                        <br>Nele também está a opção de <b>DECODIFICAÇÂO</b> dos mesmos arquivos.<br>
-                        E até a opção de <b>EDIÇÃO</b> dos arquivos já criados.
-                    </dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/Adivinha-Palavra"><b>Jogo Adivinha Palavra (versão PT)</b></a>
-                    <dd>Jogo para computador, com simples objetivo de adivinhar a palavra escolhida aleatoriamente pelo programa <b>(LETRA POR LETRA)</b>.
-                        <br>Com um design simples a nova versão do AP está mais especifica e com mais de 500 palavras aumentando a dificuldade do jogo.</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/Guessing-Word"><b>Game Guessing Word (versão EN)</b></a>
-                    <dd>Computer game, with the simple objective of guessing the word chosen randomly by the program <b>(LETTER BY LETTER)</b>.
-                        <br>With a simple design the new version of the AP is more specific and with more than 500 words increasing the difficulty of the game.</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/pipInstall"><b>PipInstall</b></a>
-                    <dd>Um Atualizador automático dos pacotes instalados pelo python-pip.<br>Criado especialmente para
-                        programadores python o PipInstall faz a leitura de todos os módulos (atualizáveis) instalados na
-                        máquina do programador organiza-os num ficheiro externo e faz a atualização através do comando:
-                        <br><code><i>pip install --upgrade -r lista_de_pacotes.txt</i></code>
-                    </dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/Diario-GC"><b>Diario-GC</b></a>
-                    <dd>Um script-programa que tem a finalidade de <b>REGISTRAR</b>,
-                        <b>EDITAR</b> e <b>LER</b> mensagens ou pensamentos de forma simples e segura<br>(já que ele
-                        também as codifica), usei um algoritmo de criptografia que tenho desenvolvido a algum tempo e
-                        que até a data presente<br>me pareceu ser inquebrável. 🤓<br><a
-                            href="https://nurul-gc.github.io/Diario-GC/"><b>Mais informações...</b></a>
-                    </dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/TicTacToe-GC"><b>TicTacToe-GC</b></a>
-                    <dd>Réplica do jogo TicTacToe, fiz questão de personaliza-la e criar um algoritmo em duas linguagens diferentes e muito populares [python && java].</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/demo-BancoGC"><b>demo-BancoGC</b></a>
-                    <dd> Estudando java (Command Line Interface)<br>Exercicio representando algumas operações bancárias.</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/GCalculadora"><b>GCalculadora</b></a>
-                    <dd>A CALCULADORA MAIS SIMPLES E PRÁTICA DO MUNDO <br>
-                        Ela te permite fazer cálculos dos mais complexos aos mais simples de forma resumida.</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/GContactos"><b>GContactos</b></a>
-                    <dd>Um script-programa que permite GUARDAR LER e EDITAR <br>
-                        informações de contactos de qualquer fonte e pessoa</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/demo-Notificacao"><b>demo-Notificação</b></a>
-                    <dd>Este script-programa serve para apresentar como se gera notificações no ambiente principal.. <br>
-                        Usando três ferramentas diferentes e suas respectivas sintaxes..</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/GenVal-IP"><b>GenVal-IP</b></a>
-                    <dd>Simples script-programa que gera e valida endereços de IPs.</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/ConScan"><b>ConScan</b></a>
-                    <dd>Simples script-programa que verifica as portas disponiveis para estabelecer a conexão a um servidor.</dd>
-                </li>
-                <li>
-                    <a href="https://github.com/Nurul-GC/dGC"><b>dGC</b></a>
-                    <dd>Pequeno e simples agendador de tarefas - DespertadorGC</dd>
-                </li>
-            </ul>
-            <h2 title="códigos singulares">Gists</h2>
-            <script src="https://gist.github.com/Nurul-GC/48dc8cdfbf5d98f4db523763ee20b30c.js"></script>
-            <script src="https://gist.github.com/Nurul-GC/0ea07b0c6497c176b8aa28425b967737.js"></script>
-            <script src="https://gist.github.com/Nurul-GC/01e0620505c376974ae5b7c5dbe8bff4.js"></script>
-        </div>
-        <hr>
-        <div id="visitantes">
-            <p>
-                <b>Contagem de Visitantes Anuais da página - Nurul-GC</b><br>
+        <div class="list-inline border text-center">
+            <p class="list-inline-item">
+                <b>Contagem de Visitantes na página -> Nurul-GC</b><br>
                 <img src="https://profile-counter.glitch.me/Nurul-GC/count.svg" alt="counting-visitors-nurulgc">
             </p>
-            <p>
-                <b>Contagem de Visitantes Anuais da página - ArtesGC</b><br>
+            <p class="ili list-inline-item">
+                <b>Contagem de Visitantes na página -> ArtesGC</b><br>
                 <img src="https://profile-counter.glitch.me/ArtesGC/count.svg" alt="counting-visitors-artesgc">
             </p>
         </div>
     </main>
-    <footer>
-        <p id="links-sociais">
-            <b>L I N K S - S O C I A I S</b><br>
-            <a href="https://api.whatsapp.com/send?phone=27735550878"><img src="img/iconfinder_whatsapp_1242844.png"
-                    alt="whatsapp"></a>
-            <a href="https://facebook.com/nurul.carvalho"><img src="img/iconfinder_46-facebook_104458.png"
-                    alt="facebook"></a>
-            <a href="https://www.instagram.com/nurulgc/"><img
-                    src="img/iconfinder_2018_social_media_popular_app_logo_instagram_3225191.png" alt="instagram"></a>
-            <a href="https://twitter.com/NurulGC3"><img src="img/iconfinder_twitter_online_social_media_734367.png"
-                    alt="twitter"></a>
-            <a href="https://www.linkedin.com/in/nurul-carvalho-4a64b01b4/"><img
-                    src="img/iconfinder_Circled_Linkedin_svg_5279114.png" alt="linkedin"></a>
-            <a href="https://t.me/NurulGC"><img src="img/iconfinder_telegram_1242845.png" alt="telegram"></a>
-        </p>
-        <p id="copyright">&copy; 2019-2021 Nurul-GC</p>
+    <footer class="container-fluid bg-light text-center" style="margin-top: 20px;">
+        <small>&copy; 2019-2021 Nurul-GC</small>
     </footer>
 </body>
 
