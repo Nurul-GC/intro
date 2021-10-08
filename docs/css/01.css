@@ -1,62 +1,49 @@
-body{
-    background-color: rgb(55, 86, 119);
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
 }
-main{
-    background-color: cadetblue;
-    font-family: Cambria;
-    width: 1000px;
-    padding: 20px;
+body{
+    font-family: 'Abel', sans-serif;
+    overflow-wrap: break-word;
+}
+.navbar .navbar-brand img {
+    height: 70px;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.container{
     margin: auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+    padding: 20px;
 }
 #intro{
     text-align: center;
 }
 #intro h1{
+    padding: 20px;
     color: orange;
 }
 #intro img{
-    width: 300px;
+    width: 350px;
     height: 200px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
 }
-a{
-    color: rgb(77, 35, 18);
-    text-size-adjust: auto;
-    text-decoration: dashed;
-}
-code{
-    background-color: rgb(54, 54, 54);
-    color: whitesmoke;
-}
-dd{
-    background-color: whitesmoke;
-    text-align: justify;
-    border-radius: 3px;
-}
 #visitantes{
     text-align: center;
 }
-footer #links-sociais{
-    background-color: whitesmoke;
-    text-align: center;
-    width: 250px;
-    height: 130px;
-    margin: auto;
-    border-radius: 10px;
+.social-icon{
+    height: 32px;
+    width: 32px;
+    margin-left: 120px;
 }
-footer #copyright{
-    padding-top: 5px;
-    text-align: center;
-    font-size: small;
-    color: whitesmoke;
-    background-color: black;
-    border-radius: 10px;
+.social-icon:hover{
+    padding: 2px;
 }
-footer p img{
-    padding: 10px;
-    width: 30px;
-    height: 30px;
+.ili{
+    margin-left: 50px;
 }
