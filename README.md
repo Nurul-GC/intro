@@ -4,5 +4,5 @@
 
 ---
 
-&copy; 2019-2021 [Nurul GC](mailto:nuruldecarvalho@gmail.com) \
-&trade; [ArtesGC](https://artesgc.home.blog)
+&copy; 2019-2022 [Nurul GC](mailto:nuruldecarvalho@gmail.com) \
+&trade;[ArtesGC](https://artesgc.home.blog)
