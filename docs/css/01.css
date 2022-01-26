@@ -18,6 +18,10 @@ header{
     -o-object-fit: cover;
     object-fit: cover;
 }
+#my-nav{
+  border-width: 1px;
+  border-color: white;
+}
 .container{
     margin: auto;
     border-radius: 10px;
