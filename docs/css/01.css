@@ -8,6 +8,9 @@ body{
     font-family: 'Abel', sans-serif;
     overflow-wrap: break-word;
 }
+header{
+  margin-bottom: 50px;
+}
 .navbar .navbar-brand img {
     height: 70px;
     -webkit-transition: height .5s;
@@ -28,22 +31,25 @@ body{
     color: orange;
 }
 #intro img{
-    width: 350px;
-    height: 200px;
+    width: auto;
+    height: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
 }
-#visitantes{
+.social-card{
     text-align: center;
+    margin: auto;
 }
 .social-icon{
-    height: 32px;
-    width: 32px;
-    margin-left: 120px;
+    height: 24px;
+    width: 24px;
 }
 .social-icon:hover{
     padding: 2px;
 }
 .ili{
-    margin-left: 50px;
+    margin-left: 150px;
+}
+footer{
+  margin-top: 50px;
 }
