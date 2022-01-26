@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt, en">
+<html lang="pt, en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -10,21 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
     <link rel="stylesheet" href="css/01.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
     <link rel="manifest" href="img/favicons/site.webmanifest">
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.esm.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body class="bg-dark">
@@ -32,8 +27,8 @@
         <div class="container-fluid">
             <div class="navbar-brand">
                 <img src="img/favicons/favicon-192x192.png" alt="gc-logo">
+                <h4>Nurul Hosny Gaspar de Carvalho</h4>
             </div>
-            <h1 class="text-center">Nurul Hosny Gaspar de Carvalho</h1>
 
             <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
@@ -42,23 +37,23 @@
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#repositorios">Repositórios</a>
+                        <a class="btn bg-dark text-light nav-link" href="#repositorios">Repositórios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gists">Gists</a>
+                        <a class="btn bg-dark text-light nav-link" href="#gists">Gists</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="btn bg-dark text-light nav-item">
                         <a class="nav-link" href="#links-sociais">Links-Sociais</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
-    <br>
-    <main class="container bg-light">
+
+    <div class="container bg-light">
         <div id="intro">
             <a href="https://artesgc.home.blog" title="click para acessar o website da ArtesGC!">
-                <img src="img/logos/02.png" alt="logotipo-nurulgc">
+                <img src="img/quby-high-five.gif" alt="olaa-mundo">
             </a>
             <h1>Olaa Mundo!</h1>
             <p>
@@ -67,12 +62,15 @@
                 Serão descritos aqui os repositórios criados por <a
                     href="https://github.com/Nurul-GC/">Nurul-GC</a>
             </p>
-        </div><br>
-        <div id="card">
-            <h2 class="card-header text-center" id="repositorios">R E P O S I T Ó R I O S</h2>
+        </div>
+    </div><br>
+
+    <div class="container bg-light">
+        <div class="card" id="repositorios">
+            <h2 class="card-header text-center">R E P O S I T Ó R I O S</h2>
             <div class="card-body">
                 <div class="list-group list-group-flush">
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/GCrypter"><b>GCrypter</b></a>
                             <dd>O Codificador (GCrypter) é um programa desktop para windows, que lhe oferece opções e um
@@ -82,21 +80,21 @@
                             </dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/Adivinha-Palavra"><b>Jogo Adivinha Palavra (versão PT)</b></a>
                             <dd>Jogo para computador, com simples objetivo de adivinhar a palavra escolhida aleatoriamente pelo programa <b>(LETRA POR LETRA)</b>.
                                 <br>Com um design simples a nova versão do AP está mais especifica e com mais de 500 palavras aumentando a dificuldade do jogo.</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/Guessing-Word"><b>Game Guessing Word (versão EN)</b></a>
                             <dd>Computer game, with the simple objective of guessing the word chosen randomly by the program <b>(LETTER BY LETTER)</b>.
                                 <br>With a simple design the new version of the AP is more specific and with more than 500 words increasing the difficulty of the game.</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/pipInstall"><b>PipInstall</b></a>
                             <dd>Um Atualizador automático dos pacotes instalados pelo python-pip.<br>Criado especialmente para
@@ -106,7 +104,7 @@
                             </dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/Diario-GC"><b>Diario-GC</b></a>
                             <dd>Um script-programa que tem a finalidade de <b>REGISTRAR</b>,
@@ -117,52 +115,52 @@
                             </dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/TicTacToe-GC"><b>TicTacToe-GC</b></a>
                             <dd>Réplica do jogo TicTacToe, fiz questão de personaliza-la e criar um algoritmo em duas linguagens diferentes e muito populares [python && java].</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/demo-BancoGC"><b>demo-BancoGC</b></a>
                             <dd> Estudando java (Command Line Interface)<br>Exercicio representando algumas operações bancárias.</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/GCalculadora"><b>GCalculadora</b></a>
                             <dd>A CALCULADORA MAIS SIMPLES E PRÁTICA DO MUNDO <br>
                                 Ela te permite fazer cálculos dos mais complexos aos mais simples de forma resumida.</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/GContactos"><b>GContactos</b></a>
                             <dd>Um script-programa que permite GUARDAR LER e EDITAR <br>
                                 informações de contactos de qualquer fonte e pessoa</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/demo-Notificacao"><b>demo-Notificação</b></a>
                             <dd>Este script-programa serve para apresentar como se gera notificações no ambiente principal.. <br>
                                 Usando três ferramentas diferentes e suas respectivas sintaxes..</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/GenVal-IP"><b>GenVal-IP</b></a>
                             <dd>Simples script-programa que gera e valida endereços de IPs.</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/ConScan"><b>ConScan</b></a>
                             <dd>Simples script-programa que verifica as portas disponiveis para estabelecer a conexão a um servidor.</dd>
                         </li>
                     </div><br>
-                    <div class="list-group-item list-group-item-primary">
+                    <div class="list-group-item list-group-item-dark ">
                         <li>
                             <a href="https://github.com/Nurul-GC/dGC"><b>dGC</b></a>
                             <dd>Pequeno e simples agendador de tarefas - DespertadorGC</dd>
@@ -170,53 +168,128 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <h2 class="card-header text-center" title="códigos singulares" id="gists">G I S T S</h2>
-                <div class="list-group list-group-flush">
-                    <div class="list-group-item list-group-item-primary">
-                        <script src="https://gist.github.com/Nurul-GC/48dc8cdfbf5d98f4db523763ee20b30c.js"></script>
-                        <script src="https://gist.github.com/Nurul-GC/0ea07b0c6497c176b8aa28425b967737.js"></script>
-                        <script src="https://gist.github.com/Nurul-GC/01e0620505c376974ae5b7c5dbe8bff4.js"></script>
+        </div>
+    </div><br>
+
+    <div class="container bg-light">
+        <div class="card" id="gists">
+                <h2 class="card-header text-center" title="códigos singulares">G I S T S</h2>
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/48dc8cdfbf5d98f4db523763ee20b30c.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/0ea07b0c6497c176b8aa28425b967737.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/01e0620505c376974ae5b7c5dbe8bff4.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/3cdd0e12bb296e466b9c1139bc5277e7.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/31e39645da7480abe203dca75aa948fe.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/54c52aa0aed75266818354ea0d3eec27.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/c701d7d385a2ed4eed6d734818bc7e76.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/b09553ecb694ee8e0bb3c0b98f766d4e.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/b4525ce3a705f61b8c158d160e536274.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/ede50f61c0a59d3cf92fcc26923c0a90.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/7126927350b34f82dbeffdda75d6d8e8.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/06f1d5821b07c7bca09f51d0677664e0.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/55d099026430b0795095146820cdd741.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/0626edcb8f0ff8d1894ad80372423fb4.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/48b785de25859b56c95a633ef0cd3c72.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/8af6f4ea57854f50fc87a8dd4265a72f.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/7e4e3293eb3819dbf2c18448135322e6.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/cb951334d5dd14582c609a2c5af021de.js"></script>
+                        </div><br>
+                        <div class="list-group-item list-group-item-dark ">
+                            <script src="https://gist.github.com/Nurul-GC/46654efa807cce5f2f14948a512447e1.js"></script>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div><br>
-        <div class="card">
-            <h1 class="card-header text-center" id="links-sociais">L I N K S - S O C I A I S</h1>
-            <div class="card-body social-card">
-                <a href="https://api.whatsapp.com/send?phone=27735550878">
-                    <img class="social-icon" src="img/whatsapp.png" alt="whatsapp">
-                </a>
-                <a href="https://facebook.com/nurul.carvalho">
-                    <img class="social-icon" src="img/facebook.png" alt="facebook">
-                </a>
-                <a href="https://www.instagram.com/nurulgc/">
-                    <img class="social-icon" src="img/instagram.png" alt="instagram">
-                </a>
-                <a href="https://twitter.com/NurulGC3">
-                    <img class="social-icon" src="img/twitter.png" alt="twitter">
-                </a>
-                <a href="https://www.linkedin.com/in/nurul-carvalho-4a64b01b4/">
-                    <img class="social-icon" src="img/linkedin.png" alt="linkedin">
-                </a>
-                <a href="https://t.me/NurulGC">
-                    <img class="social-icon" src="img/telegram.png" alt="telegram">
-                </a>
+    </div><br>
+
+    <div class="container bg-light">
+        <div class="card" id="links-sociais">
+            <h1 class="card-header text-center">L I N K S - S O C I A I S</h1>
+            <div class="card-body ">
+                <div class="list-group list-group-horizontal">
+                    <div class="list-group-item list-group-item-dark social-card">
+                        <a href="https://api.whatsapp.com/send?phone=27735550878">
+                            <img class="social-icon" src="img/whatsapp.png" alt="whatsapp">
+                        </a>
+                    </div>
+                    <div class="list-group-item list-group-item-dark social-card">
+                        <a href="https://facebook.com/nurul.carvalho">
+                            <img class="social-icon" src="img/facebook.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="list-group-item list-group-item-dark social-card">
+                        <a href="https://www.instagram.com/nurulgc/">
+                            <img class="social-icon" src="img/instagram.png" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="list-group-item list-group-item-dark social-card">
+                        <a href="https://twitter.com/NurulGC3">
+                            <img class="social-icon" src="img/twitter.png" alt="twitter">
+                        </a>
+                    </div>
+                    <div class="list-group-item list-group-item-dark social-card">
+                        <a href="https://www.linkedin.com/in/nurul-carvalho-4a64b01b4/">
+                            <img class="social-icon" src="img/linkedin.png" alt="linkedin">
+                        </a>
+                    </div>
+                    <div class="list-group-item list-group-item-dark social-card">
+                        <a href="https://t.me/NurulGC">
+                        <img class="social-icon" src="img/telegram.png" alt="telegram">
+                    </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="list-inline border text-center">
-            <p class="list-inline-item">
+        <div class="list-group list-group-horizontal border ">
+            <p class="list-group-item list-group-item-dark social-card">
                 <b>Contagem de Visitantes na página -> Nurul-GC</b><br>
                 <img src="https://profile-counter.glitch.me/Nurul-GC/count.svg" alt="counting-visitors-nurulgc">
             </p>
-            <p class="ili list-inline-item">
+            <p class="list-group-item list-group-item-dark social-card">
                 <b>Contagem de Visitantes na página -> ArtesGC</b><br>
                 <img src="https://profile-counter.glitch.me/ArtesGC/count.svg" alt="counting-visitors-artesgc">
             </p>
         </div>
-    </main>
-    <footer class="container-fluid bg-light text-center" style="margin-top: 20px;">
-        <small>&copy; 2019-2021 Nurul-GC</small>
+    </div>
+
+    <footer class="container-fluid bg-light text-center">
+        <small>&copy; 2019-2022 Nurul-GC</small>
     </footer>
 </body>
 
