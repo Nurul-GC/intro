@@ -22,6 +22,9 @@ header{
   border-width: 1px;
   border-color: white;
 }
+.menu-item{
+    margin-bottom: 5px;
+}
 .container{
     margin: auto;
     border-radius: 10px;
