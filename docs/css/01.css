@@ -46,6 +46,7 @@ header{
 .social-card{
     text-align: center;
     margin: auto;
+    border-radius: 20px;
 }
 .social-icon{
     height: 24px;
